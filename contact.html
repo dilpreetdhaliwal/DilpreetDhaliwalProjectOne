@@ -7,11 +7,114 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#./index.html">Home</a></li>
-            <li><a href="#./contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="Navigation">
+            <div class="navLogo">
+                <img src="./assets/logo.png" alt="oreg logo">
+            </div>
+            <div class="navLinks">
+                <nav>
+                    <ul>
+                        <li><a href="#./index.html">Home</a></li>
+                        <li><a href="#./contact.html">Contact</a></li>
+                        <li><a href="#./contact.html">Blog</a></li>
+                        <li><a href="#shop"><img src="./assets/icons/cart.svg" alt="Our products"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <h2>Contact Us</h2>
+    </header>
+    <main>
+        <div class="contactInfo">
+            <div class="contactAddress">
+                <p class="bold">Office Address</p>
+                <p>3812 Lena Lane City JAckson Mississippi</p>
+            </div>
+            <div class="contactNumber">
+                <p class="bold">Phone Number</p>
+                <p>601-594-3504</p>
+            </div>
+            <div class="contactEmail">
+                <p class="bold">Email</p>
+                <p>4c5f4s5df45e@temporary-mail.net</p>
+            </div>
+            <div class="contactForm">
+                <form action="#" method="#" name="sendMessageForm">
+                    <label for="email" class="sr-only">Enter your full name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name*" required>
+
+                    <label for="email" class="sr-only">Enter your email</label>
+                    <input type="text" id="email" name="email" placeholder="Your Email Address*" required>
+
+                    <label for="phone" class="sr-only">Enter your phone number</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+                    <label for="website" class="sr-only">Enter your website</label>
+                    <input type="text" id="website" name="website" placeholder="Yoour Website Link">
+
+                    <label for="subject" class="sr-only">Enter your subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+                    <label for="message" class="sr-only">Enter your message</label>
+                    <textarea id="message" name="message" placeholder="Your Message..">
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerColumns">
+            <div class="col1">
+                <img src="./assets/logo.png" alt="oreg logo">
+                <p>Affronting fiscretion as do is annoncing. Now months esteem opose nearer enable too six, as do nearer is announcing.</p>
+                <ul>
+                    <li><a href="#" target="_blank"><img src="./assets/icons/facebook.svg" alt="facebook icon"></a></li>
+                    <li><a href="#" target="_blank"><img src="./assets/icons/instagram.svg" alt="instagram icon"></a></li>
+                    <li><a href="#" target="_blank"><img src="./assets/icons/youtube.svg" alt="youtube icon"></a></li>
+                    <li><a href="#" target="_blank"><img src="./assets/icons/twitter.svg" alt="twitter icon"></a></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="./index.html#about">About Us</a></li>
+                    <li><a href="./index.html#shop">Our Product</a></li>
+                    <li><a href="./index.html#blog">Our Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Become a member</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h5>Recent Products</h5>
+                <div class="footVeg">
+                    <img src="./assets/product8.jpeg" alt="">
+                    <p>Fresh Vegetable $13</p>
+                </div>
+                <div class="footFruit">
+                    <img src="./assets/product6.jpeg" alt="">
+                    <p>Fresh Fruit $13</p>
+                </div>
+                <div class="footBean">
+                    <img src="./assets/product5.jpeg" alt="">
+                    <p>Fresh Bean $13</p>
+                </div>
+            </div>
+            <div class="col4">
+                <h5>Subscribe</h5>
+                <p class="bold">Address:</p>
+                <p>5919 Trustville Crossings Pkwy, Birmingham AL 35235</p>
+                <p class="bold">Phone:</p>
+                <p>+880168800564</p>
+                <label for="email" class="sr-only">Enter your email</label>
+                <input type="text" id="email" name="email" placeholder="Enter Email..">
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright & 2023. All Rights Reserved
+        </div>
+    </footer>
 </body>
 </html>
