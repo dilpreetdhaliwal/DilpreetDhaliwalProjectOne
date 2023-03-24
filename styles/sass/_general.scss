@@ -1,0 +1,34 @@
+@use "variables" as v;
+
+html {
+    font-family: v.$bodyFont;
+    font-weight: 400;
+    font-size: 18px;
+    color: v.$black;
+    background-color: v.$white;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: v.$white;
+    background-color: v.$green;
+    padding: 7px 15px;
+    border-radius: 20px;
+}

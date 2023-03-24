@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OREG - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <div class="Navigation">
+    <header class="navBg">
+        <div class="wrapper navigation">
             <div class="navLogo">
                 <img src="./assets/logo.png" alt="oreg logo">
             </div>
-            <div class="navLinks">
+            <div>
                 <nav>
-                    <ul>
+                    <ul class="navLinks">
                         <li><a href="#./index.html">Home</a></li>
                         <li><a href="#./contact.html">Contact</a></li>
                         <li><a href="#./contact.html">Blog</a></li>
@@ -23,29 +27,32 @@
                 </nav>
             </div>
         </div>
-       
-        <div class="headerText">
-            <h1>Providing Tasty & Healthy Food</h1>
-            <p>Quis autem vel eum iure reprehenderit qui in ea volupalate velit esse quah neil molesatia vel illum quie diloroem eum velit esse quam nihil consequator quie in ea el</p>
-            <a href="#" class="shoploadLink" id="shop">Shop now</a>
-        </div>
-        <div class="headerImage">
-            <img src="./assets/header/header.png" alt="assorted fruits on and around a plate">
-        </div>
     </header>
-    <section id="about" class="about">
+    <section id="home" class="home">
+        <div class="wrapper homeFlex">
+            <div class="homeText">
+                <h1>Providing Tasty & Healthy Food</h1>
+                <p>Quis autem vel eum iure reprehenderit qui in ea volupalate velit esse quah neil molesatia vel illum quie diloroem eum velit esse quam nihil consequator quie in ea el</p>
+                <a href="#" class="shoploadLink" id="shop">Shop now</a>
+            </div>
+            <div class="homeImage">
+                <img src="./assets/header/header.png" alt="assorted fruits on and around a plate">
+            </div>
+           </div>
+    </section>
+    <section id="about" class="about wrapper">
         <div>
             <p class="aboutFont">About Us</p>
             <h2>Providing best organic products</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni illum et quo incidunt sed omnis, aspernatur eveniet enim rem maxime facilis minus quod assumenda quia voluptatem, nostrum blanditiis harum amet!</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore nostrum eos ullam iste eveniet distinctio, vitae velit impedit consequuntur nemo tenetur.</p>
-            <a href="#" class="shoploadLink" id="shop"></a>
+            <a href="#" class="shoploadLink" id="shop">Shop now</a>
         </div>
         <div>
             <p>We've been providing best services for 20 years</p>We've been providing best services for 20 years
         </div>
     </section>
-    <section id="shop">
+    <section id="shop" class="wrapper">
         <div class="sectionIntro">
             <h3>Our products</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est reprehenderit esse nemo iure reiciendis omnis.</p>
@@ -112,55 +119,65 @@
 
     </section>
     <section class="gallery">
-        <div class="sectionIntro">
-            <h3>Our gallery</h3>   
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est reprehenderit esse nemo iure reiciendis omnis.</p>
-            <ul>
-                <li><a href="#">All</a></li>
-                <li><a href="#"></a>Business</li>
-                <li><a href="#"></a>Develpment</li>
-                <li><a href="#"></a>Technology</li>
-                <li><a href="#"></a>Agency</li>
-            </ul>
+        <div class="wrapper">
+            <div class="sectionIntro">
+                <h3>Our gallery</h3>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est reprehenderit esse nemo iure reiciendis omnis.</p>
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"></a>Business</li>
+                    <li><a href="#"></a>Develpment</li>
+                    <li><a href="#"></a>Technology</li>
+                    <li><a href="#"></a>Agency</li>
+                </ul>
+            </div>
+            <div class="picRow1">
+                <img src="./assets/gallery1.jpg" alt="">
+                <img src="./assets/gallery2.jpg" alt="">
+                <img src="./assets/gallery3.jpg" alt="">
+            </div>
+            <div class="picRow3">
+                <img src="./assets/gallery4.jpg" alt="">
+                <img src="./assets/gallery5.jpg" alt="">
+            </div>
+            <div class="picRow3">
+                <img src="./assets/gallery6.jpg" alt="">
+                <img src="./assets/gallery7.jpg" alt="">
+                <img src="./assets/gallery8.jpg" alt="">
+            </div>
+            <a href="#" class="shoploadLink">Load more</a>
         </div>
-        <div class="picRow1">
-            <img src="./assets/gallery1.jpg" alt="">
-            <img src="./assets/gallery2.jpg" alt="">
-            <img src="./assets/gallery3.jpg" alt="">
-        </div>
-        <div class="picRow3">
-            <img src="./assets/gallery4.jpg" alt="">
-            <img src="./assets/gallery5.jpg" alt="">
-        </div>
-        <div class="picRow3">
-            <img src="./assets/gallery6.jpg" alt="">
-            <img src="./assets/gallery7.jpg" alt="">
-            <img src="./assets/gallery8.jpg" alt="">
-        </div>
-        <a href="#" class="shoploadLink">Load more</a>
     </section>
     <section id="blog" class="blog">
-        <div class="sectionIntro">
-            <h3>Our products</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est reprehenderit esse nemo iure reiciendis omnis.</p>
-        </div>
-        <div class="threeBlogs">
-            <div class="blog1">
-                <img src="assets/blog1.jpg" alt="">
-                <h4>Departure ourselves very as he perculiar believed</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium similique repellat eveniet consequatur? Eius eaque, harum veniam quia.</p>
-                <a href="#" class="readMoreLink">Read More</a>
+        <div class="wrapper">
+            <div class="sectionIntro">
+                <h3>Our products</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est reprehenderit esse nemo iure reiciendis omnis.</p>
             </div>
-            <div class="blog2">
-
-            </div>
-            <div class="blog3">
-
+            <div class="threeBlogs">
+                <div class="blog1">
+                    <img src="assets/blog1.jpg" alt="">
+                    <h4>Departure ourselves very as he perculiar believed</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium similique repellat eveniet consequatur? Eius eaque, harum veniam quia.</p>
+                    <a href="#" class="readMoreLink">Read More</a>
+                </div>
+                <div class="blog2">
+                    <img src="assets/blog2.jpg" alt="">
+                    <h4>Departure ourselves very as he perculiar believed</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium similique repellat eveniet consequatur? Eius eaque, harum veniam quia.</p>
+                    <a href="#" class="readMoreLink">Read More</a>
+                </div>
+                <div class="blog3">
+                    <img src="assets/blog3.jpg" alt="">
+                    <h4>Departure ourselves very as he perculiar believed</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium similique repellat eveniet consequatur? Eius eaque, harum veniam quia.</p>
+                    <a href="#" class="readMoreLink">Read More</a>
+                </div>
             </div>
         </div>
     </section>
     <footer>
-        <div class="footerColumns">
+        <div class="wrapper footerColumns">
             <div class="col1">
                 <img src="./assets/logo.png" alt="oreg logo">
                 <p>Affronting fiscretion as do is annoncing. Now months esteem opose nearer enable too six, as do nearer is announcing.</p>

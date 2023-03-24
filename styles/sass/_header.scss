@@ -1,0 +1,32 @@
+@use "variables" as v;
+
+.home {
+    background: url(../assets/header/background.png);
+    width: 100vw;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.homeFlex {
+    display: flex;
+    align-items: center;
+}
+
+.homeText {
+    width: 50%;
+    height: 100%;
+}
+
+.homeImage {
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    font-family: v.$headingFont;
+    font-weight: 700;
+}

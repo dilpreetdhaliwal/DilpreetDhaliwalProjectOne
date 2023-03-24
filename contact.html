@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OREG - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <div class="Navigation">
+    <header class="navBg">
+        <div class="wrapper navigation">
             <div class="navLogo">
                 <img src="./assets/logo.png" alt="oreg logo">
             </div>
-            <div class="navLinks">
+            <div>
                 <nav>
-                    <ul>
+                    <ul class="navLinks">
                         <li><a href="#./index.html">Home</a></li>
                         <li><a href="#./contact.html">Contact</a></li>
                         <li><a href="#./contact.html">Blog</a></li>
@@ -23,9 +27,11 @@
                 </nav>
             </div>
         </div>
-        <h2>Contact Us</h2>
     </header>
-    <main>
+    <section>
+        <h2>Contact Us</h2>
+    </section>
+    <section class="wrapper">
         <div class="contactInfo">
             <div class="contactAddress">
                 <p class="bold">Office Address</p>
@@ -51,21 +57,20 @@
                     <input type="text" id="phone" name="phone" placeholder="Phone Number">
 
                     <label for="website" class="sr-only">Enter your website</label>
-                    <input type="text" id="website" name="website" placeholder="Yoour Website Link">
+                    <input type="text" id="website" name="website" placeholder="Your Website Link">
 
                     <label for="subject" class="sr-only">Enter your subject</label>
                     <input type="text" id="subject" name="subject" placeholder="Subject..">
 
                     <label for="message" class="sr-only">Enter your message</label>
-                    <textarea id="message" name="message" placeholder="Your Message..">
-
-                    <button type="submit">Send Message</button>
+                    <textarea id="message" name="message" placeholder="Your Message.."></textarea>
                 </form>
+                <button type="submit">Send Message</button>
             </div>
         </div>
-    </main>
+    </section>
     <footer>
-        <div class="footerColumns">
+        <div class="wrapper footerColumns">
             <div class="col1">
                 <img src="./assets/logo.png" alt="oreg logo">
                 <p>Affronting fiscretion as do is annoncing. Now months esteem opose nearer enable too six, as do nearer is announcing.</p>
