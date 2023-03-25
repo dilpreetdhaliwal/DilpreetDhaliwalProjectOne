@@ -1,6 +1,44 @@
 @use "variables" as v;
 
-.home {
+// TOP NAVIGATION BAR
+
+.navBg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background: v.$white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background: v.$white;
+}
+
+.navLinks {
+    display: flex;
+    li {
+        display: flex;
+        align-items: center;
+        a {
+            margin: 5px;
+            padding: 5px;
+            color: v.$black;
+            background-color: v.$white;
+        }
+    }
+}
+
+// HOME PAGE HEADER
+
+.homeHeader {
     background: url(../assets/header/background.png);
     width: 100vw;
     height: calc(100vh - 70px);
@@ -16,11 +54,7 @@
     align-items: center;
 }
 
-.homeText {
-    width: 50%;
-    height: 100%;
-}
-
+.homeText,
 .homeImage {
     width: 50%;
     height: 100%;
@@ -29,4 +63,17 @@
 h1 {
     font-family: v.$headingFont;
     font-weight: 700;
+}
+
+// CONTACT PAGE HEADER
+
+.contactHeader {
+    background: url(../assets/contact.jpg);
+    width: 100vw;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: v.$white;
 }

@@ -27,8 +27,15 @@ img {
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: v.$white;
-    background-color: v.$green;
     padding: 7px 15px;
     border-radius: 20px;
+    color: v.$white;
+    background-color: v.$green;
+}
+
+h2, 
+h3,
+h4 {
+    font-family: v.$headingFont;
+    font-weight: 600;
 }

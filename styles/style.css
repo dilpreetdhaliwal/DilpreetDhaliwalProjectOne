@@ -253,10 +253,17 @@ img {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #207200;
   padding: 7px 15px;
   border-radius: 20px;
+  color: #fff;
+  background-color: #207200;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Lora", serif;
+  font-weight: 600;
 }
 
 .navBg {
@@ -303,7 +310,7 @@ a {
   background-color: #fff;
 }
 
-.home {
+.homeHeader {
   background: url(../assets/header/background.png);
   width: 100vw;
   height: calc(100vh - 70px);
@@ -327,11 +334,7 @@ a {
           align-items: center;
 }
 
-.homeText {
-  width: 50%;
-  height: 100%;
-}
-
+.homeText,
 .homeImage {
   width: 50%;
   height: 100%;
@@ -340,4 +343,84 @@ a {
 h1 {
   font-family: "Lora", serif;
   font-weight: 700;
+}
+
+.contactHeader {
+  background: url(../assets/contact.jpg);
+  width: 100vw;
+  height: 300px;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+}
+
+.aboutText1 {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.aboutText2 {
+  width: 50%;
+  padding-left: 25px;
+}
+.aboutText2 h3 {
+  text-transform: capitalize;
+  padding: 60px 35px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #207200;
+}
+
+.aboutFont {
+  font-family: "Lora", serif;
+}
+
+.sectionIntro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  width: 60%;
+}
+
+.ourProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.veg {
+  width: calc(25% - 40px);
+  margin: 20px;
+  border: solid 2px #f8f8f8;
+}
+.veg h4,
+.veg p {
+  padding: 0 7px;
 }
