@@ -1,0 +1,70 @@
+@use "variables" as v;
+
+footer {
+    background: url(../assets/cow.png);
+    // width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 30px;
+}
+
+.footerColumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerSocials {
+    display: flex;
+    justify-content: space-between;
+    a {
+        padding: 8px;
+        img {
+            align-self: center;
+        }
+    }
+}
+
+.col2 {
+    width: 22%;
+    a {
+        color: v.$black;
+        background: none;
+        padding: 0;
+    }
+}
+
+.col3 {
+    width: 22%;
+}
+
+.col4 {
+    width: 22%;
+}
+
+.footVeggies {
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+    img {
+        width: 40%;
+        height:fit-content;
+        margin-right: 10px;
+    }
+    .greenText {
+        display: block;
+    }
+}
+
+.copyright {
+    text-align: center;
+    color: v.$white;
+    padding-top: 8px;
+}

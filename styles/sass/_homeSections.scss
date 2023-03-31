@@ -57,3 +57,81 @@
         padding: 0 7px;
     }
 }
+
+.veg a {
+    text-transform: capitalize;
+}
+
+.greenText {
+    color: v.$green;
+}
+
+.crossed {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.sectionEndButton {
+    text-align: center;
+    padding-top: 70px;
+}
+
+// GALLERY SECTION
+
+.gallery {
+    background: url(../assets/grass.jpg);
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.galleryLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picRow1 {
+    display: flex;
+    padding-top: 30px;
+    img {
+        padding: 4px;
+    }
+}
+
+.picRow2 {
+    display: flex;
+    img {
+        padding: 0 4px;
+    }
+}
+
+.picRow3 {
+    display: flex;
+    img {
+        padding: 4px;
+    }
+}
+
+// BLOG SECTION
+
+.blog {
+    background: v.$green;
+    padding-bottom: 50px;
+    .sectionIntro {
+        color: v.$white;
+    }
+}
+
+.threeBlogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogContainer {
+    background: v.$white;
+    width: 31%;
+    padding: 10px;
+    border-radius: 3px;
+    padding-bottom: 30px;
+}
