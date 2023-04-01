@@ -4,7 +4,12 @@
 
 .about {
     display: flex;
-    padding: 50px 0;
+    padding: 30px 0;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
 }
 
 .aboutText1 {
@@ -41,6 +46,11 @@
     width: 60%;
 }
 
+h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
 // OUR PRODUCTS/SHOP SECTION
 
 .ourProducts {
@@ -48,22 +58,30 @@
     flex-wrap: wrap;
 }
 
+
+
 .veg {
     width: calc(25% - 40px);
     margin: 20px;
     border: solid 2px #f8f8f8;
-    h4,
-    p {
-        padding: 0 7px;
+    h4 {
+        padding: 0 10px;
+        font-size: 0.9rem;
     }
-}
-
-.veg a {
-    text-transform: capitalize;
+    p {
+        padding: 0 10px;
+        font-size: 0.8rem;
+    }
+    a {
+        text-transform: capitalize;
+        font-size: 0.7rem;
+        margin-left: 10px;
+    }
 }
 
 .greenText {
     color: v.$green;
+    font-weight: 600;
 }
 
 .crossed {
@@ -89,6 +107,9 @@
 .galleryLinks {
     display: flex;
     justify-content: space-between;
+    li {
+        margin: 0 5px;
+    }
 }
 
 .picRow1 {
@@ -117,7 +138,7 @@
 
 .blog {
     background: v.$green;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     .sectionIntro {
         color: v.$white;
     }
@@ -131,7 +152,7 @@
 .blogContainer {
     background: v.$white;
     width: 31%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 3px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }

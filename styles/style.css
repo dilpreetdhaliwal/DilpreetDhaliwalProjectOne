@@ -229,7 +229,7 @@ html {
 html {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 125%;
   color: #1a2428;
   background-color: #fff;
 }
@@ -253,6 +253,7 @@ img {
 a {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.8rem;
   padding: 7px 15px;
   border-radius: 20px;
   color: #fff;
@@ -261,7 +262,8 @@ a {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Lora", serif;
   font-weight: 600;
 }
@@ -290,6 +292,15 @@ h4 {
   background: #fff;
 }
 
+.navAlign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navLinks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,15 +310,15 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .navLinks li a {
   margin: 5px;
   padding: 5px;
   color: #1a2428;
   background-color: #fff;
+}
+.navLinks li a img {
+  height: 20px;
 }
 
 .homeHeader {
@@ -366,7 +377,12 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 50px 0;
+  padding: 30px 0;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 1.8rem;
 }
 
 .aboutText1 {
@@ -407,6 +423,11 @@ h1 {
   width: 60%;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
 .ourProducts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,17 +441,23 @@ h1 {
   margin: 20px;
   border: solid 2px #f8f8f8;
 }
-.veg h4,
-.veg p {
-  padding: 0 7px;
+.veg h4 {
+  padding: 0 10px;
+  font-size: 0.9rem;
 }
-
+.veg p {
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
 .veg a {
   text-transform: capitalize;
+  font-size: 0.7rem;
+  margin-left: 10px;
 }
 
 .greenText {
   color: #207200;
+  font-weight: 600;
 }
 
 .crossed {
@@ -458,6 +485,9 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.galleryLinks li {
+  margin: 0 5px;
 }
 
 .picRow1 {
@@ -490,7 +520,7 @@ h1 {
 
 .blog {
   background: #207200;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .blog .sectionIntro {
   color: #fff;
@@ -508,17 +538,26 @@ h1 {
 .blogContainer {
   background: #fff;
   width: 31%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 3px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 footer {
+  padding-top: 30px;
+  font-size: 0.7rem;
+}
+
+.footerBG {
   background: url(../assets/cow.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-top: 30px;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .footerColumns {
@@ -528,6 +567,7 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 35px;
 }
 
 .col1 {
@@ -539,9 +579,13 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+.col1 img {
+  width: 50%;
+}
+.col1 p {
+  padding: 13px 0;
+  line-height: 1.6;
 }
 
 .footerSocials {
@@ -568,6 +612,9 @@ footer {
   background: none;
   padding: 0;
 }
+.col2 li {
+  padding: 7px 0;
+}
 
 .col3 {
   width: 22%;
@@ -576,29 +623,119 @@ footer {
 .col4 {
   width: 22%;
 }
+.col4 input {
+  width: 90%;
+  padding: 9px;
+  font-size: 0.5rem;
+  border: solid 1.8px lightgrey;
+  border-radius: 2px;
+}
 
 .footVeggies {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 8px 0;
+  padding: 4px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .footVeggies img {
-  width: 40%;
+  width: 25%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .footVeggies .greenText {
   display: block;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .copyright {
   text-align: center;
+  padding: 8px 0;
   color: #fff;
-  padding-top: 8px;
+  background-color: #207200;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+}
+
+.contactInfo {
+  padding: 10px 20px;
+  margin: 0 10px 15px;
+  -webkit-box-shadow: 2px 2px 5px gray;
+          box-shadow: 2px 2px 5px gray;
+  border-left: solid 8px #207200;
+}
+
+.leftColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  width: 50%;
+  -webkit-box-shadow: 2px 2px 5px gray;
+          box-shadow: 2px 2px 5px gray;
+  margin-left: 20px;
+}
+.contactForm input {
+  padding: 8px;
+  margin: 10px 0;
+}
+.contactForm textarea {
+  padding: 8px;
+  margin: 10px 0;
+  height: 120px;
+}
+.contactForm button {
+  text-transform: uppercase;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 10px 16px;
+  margin: 10px;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  background-color: #207200;
+  border: none;
+}
+
+.fifty {
+  width: 49%;
+}
+
+.hundred {
+  width: 100%;
 }

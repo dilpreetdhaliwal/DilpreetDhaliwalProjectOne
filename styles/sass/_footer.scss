@@ -1,24 +1,39 @@
 @use "variables" as v;
 
 footer {
+    padding-top: 30px;
+    font-size: 0.7rem;
+}
+
+.footerBG {
     background: url(../assets/cow.png);
-    // width: 100vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    padding-top: 30px;
+}
+
+h5 {
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .footerColumns {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 35px;
 }
 
 .col1 {
     width: 22%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    img {
+        width: 50%;
+    }
+    p {
+        padding: 13px 0;
+        line-height: 1.6;
+    }
 }
 
 .footerSocials {
@@ -39,6 +54,9 @@ footer {
         background: none;
         padding: 0;
     }
+    li {
+        padding: 7px 0;
+    }
 }
 
 .col3 {
@@ -47,24 +65,37 @@ footer {
 
 .col4 {
     width: 22%;
+    input {
+        width: 90%;
+        padding: 9px;
+        font-size: 0.5rem;
+        border: solid 1.8px lightgrey;
+        border-radius: 2px;
+        
+    }
 }
 
 .footVeggies {
     display: flex;
-    padding: 8px 0;
+    padding: 4px 0;
     align-items: center;
     img {
-        width: 40%;
+        width: 25%;
         height:fit-content;
-        margin-right: 10px;
+        margin-right: 15px;
     }
     .greenText {
         display: block;
     }
 }
 
+.bold {
+    font-weight: 600;
+}
+
 .copyright {
     text-align: center;
+    padding: 8px 0;
     color: v.$white;
-    padding-top: 8px;
+    background-color: v.$green;
 }

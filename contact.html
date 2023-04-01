@@ -16,7 +16,7 @@
             <div class="navLogo">
                 <img src="./assets/logo.png" alt="oreg logo">
             </div>
-            <div>
+            <div class="navAlign">
                 <nav>
                     <ul class="navLinks">
                         <li><a href="#./index.html">Home</a></li>
@@ -32,38 +32,40 @@
         <h2>Contact Us</h2>
     </section>
     <section class="wrapper">
-        <div class="contactInfo">
-            <div class="contactAddress">
-                <p class="bold">Office Address</p>
-                <p>3812 Lena Lane City Jackson Mississippi</p>
-            </div>
-            <div class="contactNumber">
-                <p class="bold">Phone Number</p>
-                <p>601-594-3504</p>
-            </div>
-            <div class="contactEmail">
-                <p class="bold">Email</p>
-                <p>4c5f4s5df45e@temporary-mail.net</p>
+        <div class="contact">
+            <div class="leftColumn">
+                <div class="contactInfo">
+                    <p class="bold">Office Address</p>
+                    <p>3812 Lena Lane City Jackson Mississippi</p>
+                </div>
+                <div class="contactInfo">
+                    <p class="bold">Phone Number</p>
+                    <p>601-594-3504</p>
+                </div>
+                <div class="contactInfo">
+                    <p class="bold">Email</p>
+                    <p>4c5f4s5df45e@temporary-mail.net</p>
+                </div>
             </div>
             <div class="contactForm">
                 <form action="#" method="#" name="sendMessageForm">
                     <label for="email" class="sr-only">Enter your full name</label>
-                    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name*" required>
+                    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name*" required class="fifty">
 
                     <label for="email" class="sr-only">Enter your email</label>
-                    <input type="text" id="email" name="email" placeholder="Your Email Address*" required>
+                    <input type="text" id="email" name="email" placeholder="Your Email Address*" required class="fifty">
 
                     <label for="phone" class="sr-only">Enter your phone number</label>
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number" class="fifty">
 
                     <label for="website" class="sr-only">Enter your website</label>
-                    <input type="text" id="website" name="website" placeholder="Your Website Link">
+                    <input type="text" id="website" name="website" placeholder="Your Website Link" class="fifty">
 
                     <label for="subject" class="sr-only">Enter your subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject..">
+                    <input type="text" id="subject" name="subject" placeholder="Subject.." class="hundred">
 
                     <label for="message" class="sr-only">Enter your message</label>
-                    <textarea id="message" name="message" placeholder="Your Message.."></textarea>
+                    <textarea id="message" name="message" placeholder="Your Message.." class="hundred"></textarea>
                 </form>
                 <button type="submit">Send Message</button>
             </div>

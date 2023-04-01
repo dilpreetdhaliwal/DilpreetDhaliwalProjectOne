@@ -3,7 +3,7 @@
 html {
     font-family: v.$bodyFont;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 125%;
     color: v.$black;
     background-color: v.$white;
 }
@@ -27,6 +27,7 @@ img {
 a {
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 0.8rem;
     padding: 7px 15px;
     border-radius: 20px;
     color: v.$white;
@@ -35,7 +36,9 @@ a {
 
 h2, 
 h3,
-h4 {
+h4,
+h5 {
     font-family: v.$headingFont;
     font-weight: 600;
 }
+
