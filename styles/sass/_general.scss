@@ -42,3 +42,15 @@ h5 {
     font-weight: 600;
 }
 
+
+// -------- MEDIA QUERY (MOBILE SITE) --------
+
+@media (max-width: 480px) {
+    html {
+     width: 480px;
+     font-size: 100%;
+    }
+    .wrapper {
+        width: 90%;
+    }
+}

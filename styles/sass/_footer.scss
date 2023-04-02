@@ -100,3 +100,18 @@ h5 {
     color: v.$white;
     background-color: v.$green;
 }
+
+
+// -------- MEDIA QUERY (MOBILE SITE) --------
+
+@media (max-width: 480px) {
+    .footerColumns {
+     flex-wrap: wrap;
+    }
+    .col1,
+    .col2,
+    .col3,
+    .col4 {
+        width: 45%;
+    }
+}

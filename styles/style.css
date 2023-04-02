@@ -268,6 +268,15 @@ h5 {
   font-weight: 600;
 }
 
+@media (max-width: 480px) {
+  html {
+    width: 480px;
+    font-size: 100%;
+  }
+  .wrapper {
+    width: 90%;
+  }
+}
 .navBg {
   position: fixed;
   top: 0;
@@ -373,6 +382,54 @@ h1 {
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .navLogo {
+    display: none;
+  }
+  .navAlign {
+    width: 100%;
+  }
+  .navAlign nav {
+    width: 100%;
+  }
+  .navLinks {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .homeFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .homeText,
+  .homeImage {
+    width: 100%;
+    height: auto;
+  }
+}
+.sectionIntro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  width: 60%;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -404,28 +461,6 @@ h2 {
 
 .aboutFont {
   font-family: "Lora", serif;
-}
-
-.sectionIntro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  margin: auto;
-  padding-top: 50px;
-  width: 60%;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-size: 1.4rem;
 }
 
 .ourProducts {
@@ -543,6 +578,48 @@ h3 {
   padding-bottom: 35px;
 }
 
+@media (max-width: 480px) {
+  .sectionIntro {
+    width: 75%;
+    padding-top: 30px;
+  }
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .aboutText1,
+  .aboutText2 {
+    width: 100%;
+    padding: 0;
+  }
+  .veg {
+    width: calc(50% - 40px);
+  }
+  .sectionEndButton {
+    padding-top: 35px;
+  }
+  .galleryLinks {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .galleryLinks li {
+    margin: 10px 5px;
+  }
+  .threeBlogs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogContainer {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
 footer {
   padding-top: 30px;
   font-size: 0.7rem;
@@ -659,6 +736,18 @@ h5 {
   background-color: #207200;
 }
 
+@media (max-width: 480px) {
+  .footerColumns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    width: 45%;
+  }
+}
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -741,4 +830,18 @@ h5 {
 
 .hundred {
   width: 100%;
+}
+
+@media (max-width: 480px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .leftColumn,
+  .contactForm {
+    width: 100%;
+    margin: 5px 0;
+  }
 }
