@@ -38,12 +38,13 @@ h5 {
 
 .footerSocials {
     display: flex;
-    justify-content: space-between;
+    li {
+        padding: 0 10px;
+    }
     a {
-        padding: 8px;
-        img {
-            align-self: center;
-        }
+        border-radius: 50px;
+        padding: 4px 8px;
+        
     }
 }
 

@@ -6,10 +6,13 @@
 }
 
 .contactInfo {
-    padding: 10px 20px;
+    padding: 15px 40px;
     margin: 0 10px 15px;
     box-shadow: 2px 2px 5px gray;
     border-left: solid 8px v.$green;
+    p {
+        margin: 10px;
+        }
 }
 
 .leftColumn {
@@ -17,6 +20,9 @@
     flex-direction: column;
     width: 50%;
     margin-right: 20px;
+    .bold { 
+        font-family: v.$headingFont;
+    }
 }
 
 .contactForm {
@@ -33,7 +39,7 @@
         margin: 10px 0;
     }
     textarea {
-        padding: 8px;
+        padding: 15px 8px;
         margin: 10px 0;
         height: 120px;
     }
