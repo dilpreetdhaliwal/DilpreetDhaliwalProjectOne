@@ -30,6 +30,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     padding: 20px;
     width: 50%;
     box-shadow: 2px 2px 5px gray;
@@ -44,15 +45,21 @@
         height: 120px;
     }
     button {
-        text-transform: uppercase;
-        align-self: center;        
+        text-transform: uppercase;      
         padding: 10px 16px;
-        margin: 10px;
+        margin: 10px auto;
         border-radius: 20px;
-        width:fit-content;
+        width: fit-content;
         color: v.$white;
         background-color: v.$green;
         border: none;
+    }
+    button:hover {
+        color: v.$black;
+        border: solid 1px v.$green;
+    }
+    ::placeholder {
+        font-size: 0.7rem;
     }
 }
 

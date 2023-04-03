@@ -29,9 +29,11 @@ h5 {
     flex-direction: column;
     img {
         width: 50%;
+        margin-top: 30.06px;
     }
     p {
-        padding: 13px 0;
+        padding: 0;
+        margin-bottom: 0;
         line-height: 1.6;
     }
 }
@@ -39,12 +41,11 @@ h5 {
 .footerSocials {
     display: flex;
     li {
-        padding: 0 10px;
+        padding-right: 22px;
     }
     a {
         border-radius: 50px;
         padding: 4px 8px;
-        
     }
 }
 

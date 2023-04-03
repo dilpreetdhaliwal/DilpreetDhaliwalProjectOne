@@ -457,6 +457,7 @@ h2 {
   border-radius: 25px;
   color: #fff;
   background-color: #207200;
+  opacity: 0.8;
 }
 
 .aboutFont {
@@ -659,9 +660,11 @@ h5 {
 }
 .col1 img {
   width: 50%;
+  margin-top: 30.06px;
 }
 .col1 p {
-  padding: 13px 0;
+  padding: 0;
+  margin-bottom: 0;
   line-height: 1.6;
 }
 
@@ -671,7 +674,7 @@ h5 {
   display: flex;
 }
 .footerSocials li {
-  padding: 0 10px;
+  padding-right: 22px;
 }
 .footerSocials a {
   border-radius: 50px;
@@ -794,6 +797,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   padding: 20px;
   width: 50%;
   -webkit-box-shadow: 2px 2px 5px gray;
@@ -811,10 +815,8 @@ h5 {
 }
 .contactForm button {
   text-transform: uppercase;
-  -ms-flex-item-align: center;
-      align-self: center;
   padding: 10px 16px;
-  margin: 10px;
+  margin: 10px auto;
   border-radius: 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -822,6 +824,25 @@ h5 {
   color: #fff;
   background-color: #207200;
   border: none;
+}
+.contactForm button:hover {
+  color: #1a2428;
+  border: solid 1px #207200;
+}
+.contactForm ::-webkit-input-placeholder {
+  font-size: 0.7rem;
+}
+.contactForm ::-moz-placeholder {
+  font-size: 0.7rem;
+}
+.contactForm :-ms-input-placeholder {
+  font-size: 0.7rem;
+}
+.contactForm ::-ms-input-placeholder {
+  font-size: 0.7rem;
+}
+.contactForm ::placeholder {
+  font-size: 0.7rem;
 }
 
 .fifty {
