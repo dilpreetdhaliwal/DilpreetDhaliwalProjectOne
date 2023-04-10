@@ -19,9 +19,22 @@ h3 {
 
 // ABOUT US SECTION
 
+.centeredButton {
+    text-align: center;
+}
+
+.javaButton {
+    font-size: 2rem;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: v.$white;
+    background-color: v.$green;
+}
+
 .about {
     display: flex;
     padding: 30px 0;
+    display: none;
 }
 
 h2 {

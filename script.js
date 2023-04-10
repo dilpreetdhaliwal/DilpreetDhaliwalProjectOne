@@ -35,3 +35,19 @@
         blogs[0].classList.add("carouselItemSelected");
         buttons[0].classList.add("carouselButtonSelected");
     });
+
+
+
+    const aboutContainer = document.querySelector("#about");
+    let isClicked = true;
+
+    let showOrHide = () => {
+        if(isClicked){
+            aboutContainer.style.display = "flex";
+            isClicked = false;
+        }else{
+            aboutContainer.style.display = "none";
+            isClicked = true;
+        }
+        
+    };
